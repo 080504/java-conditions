@@ -10,11 +10,11 @@ public class Solution {
         int remainder=n%10;
         if (remainder >=5)
         {
-            System.out.printf("%d\n", n + (10 - remainder));
+            System.out.println( n + (10 - remainder));
         }
         else 
         {
-            System.out.printf("%d\n", n - remainder); 
+            System.out.println(n - remainder); 
         }
     }
 }
